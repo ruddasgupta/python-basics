@@ -9,7 +9,7 @@ sum = lambda x, y, z: x + y + z
 print(sum(5, 10, 15))
 
 sqrList = map(lambda x: x * x, [1, 2, 3, 4])
-print(sqrList)
+print(list(sqrList))
 
 
 def do_something(fn):

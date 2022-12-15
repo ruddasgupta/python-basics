@@ -11,7 +11,7 @@ class Student:
 
 if __name__ == '__main__':
     std = Student("Steve", 25)
-    std.__show()
+    # std.__show()
     std.__school_name
     std.__name
     std.__age

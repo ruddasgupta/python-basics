@@ -1,4 +1,4 @@
-import calculate as c
+import calculate as calc
 
 if __name__ == '__main__':
-    c.sum(5, 5)
+    print(calc.sum(5, 5))

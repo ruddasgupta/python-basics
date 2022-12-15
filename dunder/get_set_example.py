@@ -1,5 +1,6 @@
 import random as ran
 
+
 class CustomList:
     def __init__(self, num):
         self.my_list = [ran.randrange(1, 101, 1) for _ in range(num)]
@@ -20,7 +21,7 @@ class CustomList:
 if __name__ == '__main__':
     obj = CustomList(5)
     print(obj)
-    len(obj)
+    print(len(obj))
     obj[1]
     for item in obj:
         print(item)
