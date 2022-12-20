@@ -2,6 +2,9 @@
 # are called.
 
 # parent class
+import logging
+
+
 class Person(object):
 
     # __init__ is known as the constructor
@@ -31,6 +34,8 @@ class Employee(Person):
         print("My name is {}".format(self.name))
         print("IdNumber: {}".format(self.id_number))
         print("Post: {}".format(self.post))
+
+        logging.debug('This is a debug message')
 
 
 if __name__ == '__main__':

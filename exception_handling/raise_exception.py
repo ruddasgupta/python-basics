@@ -1,0 +1,7 @@
+if __name__ == '__main__':
+
+    try:
+        raise NameError('HiThere')
+    except NameError:
+        print('An exception flew by!')
+        raise
