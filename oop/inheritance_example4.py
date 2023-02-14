@@ -16,7 +16,7 @@ class Class3(Class1):
         print("In Class3")
 
 
-class Class4(Class3, Class2):
+class Class4(Class2, Class3):
     pass
 
 

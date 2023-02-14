@@ -1,6 +1,5 @@
 name = 'Steve'
 
-
 def greet1():
     name = 'Bill'
     print('Hello ', name)

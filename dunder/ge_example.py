@@ -1,4 +1,4 @@
-class distance:
+class Distance:
     def __init__(self, x=None, y=None):
         self.ft = x
         self.inch = y
@@ -13,7 +13,7 @@ class distance:
 
 
 if __name__ == '__main__':
-    d1 = distance(2, 1)
-    d2 = distance(4, 10)
+    d1 = Distance(2, 1)
+    d2 = Distance(4, 10)
     print(d1 >= d2)
     print(d2 >= d1)

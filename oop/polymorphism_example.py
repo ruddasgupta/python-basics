@@ -9,11 +9,17 @@ class Employee:
 
 class Manager(Employee):
 
+    def intro(self):
+        print("I am an manager")
+
     def designation(self):
         print("mang-designation")
 
 
 class Developer(Employee):
+
+    def intro(self):
+        print("I am an developer")
 
     def designation(self):
         print("dev-designation")

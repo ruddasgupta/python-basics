@@ -19,6 +19,8 @@ if __name__ == '__main__':
 
     # b is not an instance of Derived
     print(isinstance(b, Derived))
+    print(isinstance(d, Derived))
 
     # But d is an instance of Base
     print(isinstance(d, Base))
+    print(isinstance(b, Base))

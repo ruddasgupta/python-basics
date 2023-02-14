@@ -10,3 +10,5 @@ if __name__ == '__main__':
     print(queue.popleft())                 # The first to arrive now leaves
     print(queue.popleft())                 # The second to arrive now leaves
     print(queue)
+    print(queue.pop())
+    print(queue)

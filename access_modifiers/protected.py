@@ -13,8 +13,8 @@ class Child(Parent):
     def m1(self):
         self._protected()  # This works
 
-    # def m2(self):
-    #     self.__private()
+    def m2(self):
+        self.__private()
 
     def m3(self):
         self.public()

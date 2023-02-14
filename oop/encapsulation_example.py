@@ -22,7 +22,9 @@ if __name__ == '__main__':
     # Driver code
     obj1 = Base()
     print(obj1.a)
-    print(obj1.c)
+    print(obj1._c)
+
+    obj2 = Derived()
 
     # Uncommenting print(obj1.c) will
     # raise an AttributeError
