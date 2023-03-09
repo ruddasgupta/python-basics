@@ -60,7 +60,7 @@ class Comment:
     replies: list[int] = field(default_factory=list, repr=False, compare=False)
 
 
-def main():
+def call_comment():
     comment = Comment(1, "I just subscribed!")
     print(comment)
     print(dataclasses.astuple(comment))
@@ -71,5 +71,12 @@ def main():
     pprint(inspect.getmembers(Comment, inspect.isfunction))
 
 
+def call_manual_comment():
+    comment = ManualComment(1, "I just subscribed!")
+    print(comment)
+    pprint(inspect.getmembers(ManualComment, inspect.isfunction))
+
+
 if __name__ == '__main__':
-    main()
+    call_comment()
+    call_manual_comment()
