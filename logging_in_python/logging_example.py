@@ -3,7 +3,7 @@ import logging
 
 if __name__ == '__main__':
     # Create and configure logger
-    logging.basicConfig(filename="newfile.log",
+    logging.basicConfig(filename="logging_in_python/newfile.log",
                         format='%(asctime)s %(message)s',
                         filemode='a')
 

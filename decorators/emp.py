@@ -25,11 +25,12 @@ class Employee:
         self.last = None
 
 
-emp_1 = Employee('John', 'Smith')
-emp_1.fullname = "Bob Dylan"
+if __name__ == '__main__':
+    emp_1 = Employee('John', 'Smith')
+    emp_1.fullname = "Bob Dylan"
 
-print(emp_1.first)
-print(emp_1.email)
-print(emp_1.fullname)
+    print(emp_1.first)
+    print(emp_1.email)
+    print(emp_1.fullname)
 
-del emp_1.fullname
+    del emp_1.fullname

@@ -13,9 +13,8 @@ class Person:
 
 
 if __name__ == '__main__':
+    print(__name__)
     person = Person('Sarah', 25)
     # print(person.__str__())
     # print(person.__repr__())
     print(person)
-
-
